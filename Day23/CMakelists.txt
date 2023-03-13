@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.14)
+project(Day23)
+set(CMAKE_C_STANDARD 11)
+
+add_executable(Superieur main.c)
+add_executable(System system.c)
+add_executable(Cli_strings cli_strings.c)
+add_executable(structures struct.c)
+add_executable(structures1 struct1.c)
+add_executable(structures2 struct2.c)
+add_executable(structures3 structexo.c)
+add_executable(structures4 structexo2.c)
