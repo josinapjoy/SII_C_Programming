@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.14)
+project(Day22)
+set(CMAKE_C_STANDARD 11)
+
+add_executable(Exercises main.c)
+#add_executable(Exercises2 exo2.c)
+#add_executable(Exercises3 exo3.c)
+add_executable(Exercises3 pointers_functions.c)
+add_executable(Exercises2 arrays.c)
+add_executable(CalculatorPointer CalculatorPointer.c)
+add_executable(CalculatorPointer2 fnpointer_test.c)
+add_executable(CalcPointer CalcPointer.c)
+add_executable(calculator_fnpointer calculator_fnpointer.c)
