@@ -1,0 +1,28 @@
+1. keil.com
+2. downloads
+3. Product Downloads
+4. MDKARM
+5.Fill the form
+6.MADKARM53... exe
+
+
+
+to download st link usb driver
+
+1. search st link usb driver
+2. search bar :>  stsw-link
+3. select STSW-LINK009
+4. submit your email and details
+5. open mail and dowload
+6. download and unzip file
+7. select and execute STLINK_WINUSB_INSTALL.BAT
+
+
+
+* then execute the mdkarm file
+pack installer > select stm microelectronic
+select stm32F1
+select stm32f103 
+generic:> arm:cmsis install if not installed
+device specific :> keil::stm32xx_dfp install
+                :> keil::arm compiler install
