@@ -1,0 +1,49 @@
+/*#include <stdio.h>
+#define A_DEVENIR
+
+int main()
+{
+	
+	int counter=0;
+	int value =0;
+
+	if (counter <= 3)
+	{
+		printf("Enter a number :\n");
+		scanf("%d", &value);
+		counter++;
+		if (value == 9)
+		{
+			printf("You entered correct number");
+		}
+		else
+		{
+			printf("oops");
+		}
+	}
+	else
+	{
+		printf("you have exceeded 3 times");
+	}
+	
+	
+	int guess = 0;
+	printf("Devine");
+	scanf("%d", &guess);
+	if(guess ==A_DEVENIR)
+	{
+		printf("Bravo");
+	}
+	else
+	{
+		printf("Devine");
+		scanf("%d", &guess);
+	}
+
+
+
+
+
+return 0;
+}
+*/

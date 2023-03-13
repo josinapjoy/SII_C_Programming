@@ -1,0 +1,65 @@
+cmake_minimum_required(VERSION 3.14)
+project(Projet_LangageC)
+set(CMAKE_C_STANDARD 11)
+add_executable(HelloWorld HelloWorld.c)
+add_executable(Conditionex Condition.c)
+add_executable(Functions Functions.c)
+add_executable(function_lamotie1 function_lamotie.c)
+add_executable(Factoriel_rec factoriel.c)
+add_executable(Array1 Array.c)
+add_executable(Exo2 Exo2.c)
+add_executable(For_loop For_loop.c)
+add_executable(Nestedloops Nestedloops.c)
+add_executable(Exo3 Exo3.c)
+add_executable(Exo4 Exo4.c)
+add_executable(Exo5 Exo5.c)
+add_executable(Exo6 Exo6.c)
+add_executable(Exo7 Exo7.c)
+add_executable(while while.c)
+add_executable(dowhile dowhile.c)
+add_executable(MultidimArray MultidimArray.c)
+add_executable(miniproj miniproj.c)
+add_executable(miniproj2 miniproj2.c)
+add_executable(Pointers1 Pointers1.c)
+add_executable(Pointers2 Pointers2.c)
+add_executable(Pointers3 Pointers3.c)
+add_executable(pointerselflearn pointerselflearn.c)
+add_executable(pointersclasswork pointersclasswork.c)
+add_executable(modification_pointer_pgm modification_pointer_pgm.c)
+add_executable(ascii ascii.c)
+add_executable(Pointers4 Pointers4.c)
+add_executable(scopeofvar1 scopeofvar1.c)
+add_executable(scopeofvar2 scopeofvar2.c)
+add_executable(malloc11 malloc1.c)
+add_executable(malloc22 malloc2.c)
+add_executable(lcddisplay lcddisplay.c)
+add_executable(3darray 3darray.c)
+add_executable(lcddisplay_correct lcddisplay_correct.c)
+#add_executable(preprocessor preprocessor.c ${SOURCES} )
+#set(SOURCES test.h test.c)
+add_executable(preprocessor preprocessor.c)
+add_library(printconsolelibrary test.h test.c )
+#target_link_libraries(preprocessor PUBLIC printconsolelibrary)
+#add_executable(main main.c)
+
+#set(SOURCES calc.h calc.c io.h console.c)
+#add_executable(main main.c ${SOURCES})
+
+add_library(console console.c)
+add_library(file file.c)
+
+add_executable(main main.c calc.h calc.c io.h )
+target_link_libraries(main PUBLIC console)
+
+add_executable(main_f main.c calc.h calc.c io.h )
+target_link_libraries(main_f PUBLIC file)
+
+
+add_executable(main_modif main_modif.c modif_x.c modif_y.c)
+
+
+
+
+
+
+
